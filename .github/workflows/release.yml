@@ -22,7 +22,7 @@ jobs:
         with:
           tag_name: v1.0
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_commitish: custom-ubuntu
+          target_commitish: main
           draft: true
     outputs:
       release_id: ${{ steps.release.outputs.id }}
